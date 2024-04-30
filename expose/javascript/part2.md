@@ -32,3 +32,7 @@
 - E. False, true is considered 1.
 - F. True, 2 as a boolean is true as a non zero number.
 15. == checks equality of just value, so different types will be converted to a common type for comparison. === checks equality of value and type, so different types always give false.
+16. Code in part2-question16.js
+17. [2, 4, 6], we call modifyArray with [1, 2, 3] amd doSomething. In modifyArray we create newArr which is eventually returned. Inside the for loop, we iterate through the input array and call the function doSomething on each, which in this case multiples each number by 2. This multiplied number is added to the result array. So [1, 2, 3] becomes [2, 4, 6].
+18. Code in part2-question18.js
+19. 1 / 4 / 3 / 2 where / indicates line break. 1 and 4 are logged immediately, 3 after exeuction of block with no delay, and then 2 after a 1 second delay. 
