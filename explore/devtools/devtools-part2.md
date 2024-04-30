@@ -1,0 +1,2 @@
+1. The bug is that result is type string, which means we are performing a string concat instead of adding two numbers.
+2. To fix it, I would declare both of the inputs I am adding together as numbers. Fix shown in fix.png.
